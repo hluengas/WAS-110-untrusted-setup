@@ -42,7 +42,7 @@ Plugging hardware with unknown firmware into your router could be critical attac
 
 1. Now that your PC can communicate with the WAS-110, follow the reamining steps from the PON dot WIKI article [Install the 8311 community firmware on the WAS-110](https://pon.wiki/guides/install-the-8311-community-firmware-on-the-was-110/#network-setup) to flash the Community Firware.
 
-1. After the 8311 Community Firmware is installed on the WAS-110, you can configure its management interface to use an IP address on your internal network and delete the Untrusted Virutal Network (VLAN) and associated WiFi Network we created for the initial setup.
+1. After the 8311 Community Firmware is installed on the WAS-110, you can configure its management interface to use an IP address on your primary Virtual Network (VLAN) and delete the Untrusted Virutal Network (VLAN) you created for the initial setup.
     - In the WAS-110 8311 Community Firmware WebUI navigate to `8133` -> `Configuration` -> `Management`
     - Set the IP address to one on your local network
 
