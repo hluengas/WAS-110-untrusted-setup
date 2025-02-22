@@ -15,7 +15,7 @@ Plugging hardware with unknown firmware into your router could be critical attac
     - Select `Internal` as the zone
     - Uncheck `Auto-Scale Network`
     - Set `192.168.11.2` as the host addess and `24` as the netmask
-    - Under advanced settings, choose the options to isolate the network and to disallow internet access
+    - Under advanced settings, choose the options to enable `Isolate Network` and to diable `Allow Internet Access`
     - Leave the DHCP server enabled
     - These settings ensure devices on this untrusted Virtual Network (VLAN) cannot communicate with other devices on your primary network(s)
 
